@@ -1,0 +1,15 @@
+(first rep)
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Snorlax2004/Programming-Hero-course-Practice-projects.git
+git push -u origin main
+
+(2nd rep)
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Snorlax2004/Programming-Hero-course-Assingments.git
+git push -u origin main

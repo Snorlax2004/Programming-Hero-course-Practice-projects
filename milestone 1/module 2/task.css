@@ -1,0 +1,33 @@
+.threeparagraphs {
+    text-align: justify;
+        margin: 0px;
+        border: 10px solid rgb(22, 86, 111);
+        padding: 10px;
+        background-color: rgb(196, 222, 231);
+        border-radius: 10px 10px 10px 10px;
+}
+#hudai{
+    border: 7.5px solid rgb(96, 92, 92);
+    padding: 10px 10px 10px 20px;
+    display: inline-block;
+    background-color: rgb(131, 143, 114);
+}
+#image-bg{
+    text-align: justify;
+    margin-right: 1150px;
+    background-image: url(examplepic1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    border-radius: 15px;
+    border: 5px solid rgb(12, 82, 104);
+    padding: 10px;
+    margin: 30px;
+    background-color: rgb(19, 204, 211);
+    box-shadow: 10px 10px 5px rgb(150, 150, 150);
+    display: inline-block;
+    text-align: justify;
+    max-width: 250px;
+}
+

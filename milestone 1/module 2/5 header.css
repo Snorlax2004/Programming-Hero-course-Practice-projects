@@ -1,0 +1,25 @@
+.article{
+    width: 500px;
+    border: 15px solid rgb(0, 0, 0);
+    /* border-radius: 0px; */
+    padding: 10px;
+    margin: 40px;
+    background-color: #f0f8ff;
+    text-align: justify;
+    box-shadow: 20px -20px 0px rgb(135, 132, 132, 1);
+    display: inline-block;
+}
+.header{
+
+    background-image: url('examplepic1.png');
+    background-repeat: repeat-x;
+    background-size: contain;
+
+}
+.text{
+    font-weight: bolder;
+    font-style: unset;
+    color: rgb(0, 0, 0);
+    background-color: rgb(63, 2, 247, 0.1);
+
+}
