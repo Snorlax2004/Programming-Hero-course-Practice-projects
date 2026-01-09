@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .container,.box-container,.card{
+            display: flex;
+            gap: 10px;
+        }
+        .container div{
+            border: 5px solid black;
+            height: 50px;
+            font-size: 3em;
+            width: 200px;
+        }
+        .box{
+            border: 2px solid black;
+            font-size: 4em;
+            height: 80px;
+            width: 200px;
+        }
+        .user{
+            border: 2px solid blue;
+            height: 150px;
+            width: 100px;
+            background-color: aqua;
+        }
+        .card{
+            justify-content: space-between;
+            flex: wrap;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>1</div>
+        <div>1</div>
+        <div>1</div>
+        <div>1</div>
+        <div>1</div>
+        <div>1</div>
+    </div>
+    <div class="box-container">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
+        <div class="box">6</div>
+    </div>
+    <div class="card">
+        <div class="user">user-1</div>
+        <div class="user">user-2</div>
+        <div class="user">user-3</div>
+    </div>
+
+    
+</body>
+</html>
