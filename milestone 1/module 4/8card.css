@@ -1,0 +1,37 @@
+.card{
+    width: 300px;
+    border-radius: 10px;
+    border: 10px solid sandybrown;
+    padding: 10px;
+    box-shadow: 10px 10px 10px 10px gray ;
+}
+.card h3{
+    text-align: center;
+    color: darkblue;
+}
+.card img{
+    width: 100%;
+}
+.card button{
+    background-color: sandybrown;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+body{
+    max-width: 1200px;
+    background-color: aquamarine;
+    margin: 0 auto;
+}
+.card:hover{
+    background-color: lightgrey;
+}
+.card-container{
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
