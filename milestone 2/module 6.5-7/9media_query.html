@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;   
+        }
+        .food{
+            border: 5px solid skyblue;
+            padding: 10px;
+        }
+        .food img{
+            width: 100%;
+        }
+        
+        /* smaller device */
+
+        @media screen and (max-width: 576px) {
+            .container{
+                grid-template-columns: repeat(1, 1fr);
+            }
+            .food{
+                background-color: bisque;
+            }
+        }
+
+        /* medium device */
+        @media screen and (min-width: 577px) and (max-width: 992px) {
+            .container{
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="food">
+            <img src="healthy-food.jpg" alt="">
+            <h3>Food Item-1</h3>
+            <p>Price: $100</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor itaque possimus nisi qui minus minima nobis. Repellat dicta facilis quibusdam?</p>
+        </div>
+        <div class="food">
+            <img src="healthy-food.jpg" alt="">
+            <h3>Food Item-2</h3>
+            <p>Price: $200</p>
+            <p>Velit, vel incidunt? Rerum reiciendis hic ducimus autem. At ipsa cumque voluptates veritatis qui blanditiis ducimus delectus nam alias enim!</p>
+        </div>
+        <div class="food">
+            <img src="healthy-food.jpg" alt="">
+            <h3>Food Item-3</h3>
+            <p>Price: $300</p>
+            <p>Tempora quisquam necessitatibus ex labore officiis id recusandae praesentium sit. Libero fuga pariatur mollitia ipsam laboriosam nisi deleniti officiis necessitatibus.</p>
+        </div>
+        <div class="food">
+            <img src="healthy-food.jpg" alt="">
+            <h3>Food Item-4</h3>
+            <p>Price: $400</p>
+            <p>Neque velit nemo quidem laboriosam facilis unde consectetur deserunt, fugit, fuga quibusdam alias eos, atque voluptate suscipit necessitatibus ad natus!</p>
+        </div>
+        <div class="food">
+            <img src="healthy-food.jpg" alt="">
+            <h3>Food Item-5</h3>
+            <p>Price: $500</p>
+            <p>Voluptatum sapiente cumque mollitia aliquam iusto, tempore unde ullam, accusamus aspernatur neque pariatur dolore itaque reiciendis dignissimos quasi corrupti tenetur.</p>
+        </div>
+        <div class="food">
+            <img src="healthy-food.jpg" alt="">
+            <h3>Food Item-6</h3>
+            <p>Price: $600</p>
+            <p>Vitae non recusandae tempore similique explicabo eius minus? Odio nostrum repellat, natus laboriosam possimus perspiciatis rerum ipsa eius commodi facere!</p>
+        </div>
+        <div class="food">
+            <img src="healthy-food.jpg" alt="">
+            <h3>Food Item-7</h3>
+            <p>Price: $700</p>
+            <p>Eum a, perferendis maiores nulla atque laudantium commodi praesentium tenetur rerum voluptate sed nam id ex voluptatibus, dignissimos provident cum?</p>
+        </div>
+        <div class="food">
+            <img src="healthy-food.jpg" alt="">
+            <h3>Food Item-8</h3>
+            <p>Price: $800</p>
+            <p>Ab molestiae explicabo odio, iure omnis dolore unde nesciunt quia rem totam, fuga dolorum! Quod accusamus magnam quis? Obcaecati, inventore!</p>
+        </div>
+        <div class="food">
+            <img src="healthy-food.jpg" alt="">
+            <h3>Food Item-9</h3>
+            <p>Price: $900</p>
+            <p>A in minima optio rem ea perferendis nostrum quasi officiis eaque, quo aliquid. Ea eos itaque id excepturi veniam aliquid.</p>
+        </div>
+        <div class="food">
+            <img src="healthy-food.jpg" alt="">
+            <h3>Food Item-10</h3>
+            <p>Price: $1000</p>
+            <p>Quidem, culpa ut impedit accusamus illum ab quos expedita sunt vero eum, alias reiciendis ex, quasi repellat nostrum maiores dolorum.</p>
+        </div>
+        <div class="food">
+            <img src="healthy-food.jpg" alt="">
+            <h3>Food Item-11</h3>
+            <p>Price: $1100</p>
+            <p>Atque delectus quia repellendus enim, eius, architecto dicta veritatis beatae adipisci voluptatibus omnis possimus expedita obcaecati modi doloribus perferendis quae.</p>
+        </div>
+        <div class="food">
+            <img src="healthy-food.jpg" alt="">
+            <h3>Food Item-12</h3>
+            <p>Price: $1200</p>
+            <p>Iure atque repellendus asperiores aliquid culpa quam totam impedit perspiciatis temporibus mollitia architecto alias, ad expedita adipisci earum deserunt vitae?</p>
+        </div>
+    </div>
+</body>
+</html>
